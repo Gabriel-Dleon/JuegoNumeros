@@ -1,0 +1,44 @@
+public class Interfaz{
+	private LibreriaLibros libros= new LibreriaLibros();
+	private LibreriaVideo videos = new LibreriaVideo();
+	private LibreriaMusica musica = new LibreriaMusica();
+	public void buscarLibros(){
+		libros.buscarLibros();
+	}
+	public void buscarMusica(){
+		musica.buscarMusica();
+	}
+	public void buscarVideo(){
+		videos.buscarVideo();
+	}
+}
+public class LibreriaLibros{
+	public LibreriaLibros(){
+		public void buscarLibros() { 
+						System.out.println ("Introduzca el nombre del libro a buscar");
+						Scanner scanner = new Scanner(System.in);
+						String libroBusqueda = scanner.nextLine();
+ 					   }
+	}
+}
+public class LibreriaVideo{
+	public LibreriaVideo() {}
+	public void buscarVideo() { 
+					System.out.println ("Introduzca el nombre del video a buscar");
+					Scanner scanner = new Scanner(System.in);
+					String videoBusqueda = scanner.nextLine();	
+				 }
+}
+public class LibreriaMusica{
+	public LibreriaMusica() {}
+	public void buscarMusica() { 
+					System.out.println ("Introduzca el nombre de la musica a buscar");
+					Scanner scanner = new Scanner(System.in);
+					String musicaBusqueda = scanner.nextLine();
+				   }
+}
+public class Cliente {
+	public static void main(String args[]){
+		//Rellenar
+	}
+}
